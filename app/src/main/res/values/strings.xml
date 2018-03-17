@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PracticaCal</string>
+    <string name="pizza_nombre">Pizza Meat Lover</string>
+    <string name="texto_card">Pizza envuelta de quezo mozzarella y abundante carna de res, jamon y cabanossi.</string>
+    <string name="texto_pre">S/ 56.9</string>
+    <string name="dely">Pide por Delivery</string>
+    <string name="formAc_Text1">Tipo de pizza</string>
+    <string name="formAc_Text2">Tipo de maza</string>
+    <string name="formAc_RadioText1">Masa Gruesa</string>
+    <string name="formAc_RadioText2">Masa Delgada</string>
+    <string name="formAc_RadioText3">Masa Artesanal</string>
+    <string name="formAc_Text3">Complementos</string>
+    <string name="formAc_CheckText1">Extra queso mozzarella</string>
+    <string name="formAc_CheckText2">Extra jamon</string>
+    <string name="formAc_Text4">Direccion a Enviar</string>
+    <string name="formAc_ButtonText">Odenar!</string>
+    <string name="formAc_HintEdit">Av. Cascanueces #222 - Santa Anita</string>
+
+    <string-array name="android_layout_arrays">
+        <item>Americana</item>
+        <item>Pepperoni</item>
+        <item>Hawaiana</item>
+        <item>Meat Lover</item>
+    </string-array>
+</resources>

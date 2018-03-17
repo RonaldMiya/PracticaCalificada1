@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context="rmiya.com.practicacal.FormularioActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formAc_Text1"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/android_layout_arrays"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/spinner">
+    </Spinner>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formAc_Text2"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formAc_RadioText1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/formAc_RadioText2" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/formAc_RadioText3" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="@string/formAc_Text3"/>
+
+
+    <CheckBox
+        android:layout_marginBottom="10dp"
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formAc_CheckText1" />
+
+    <CheckBox
+        android:layout_marginBottom="10dp"
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formAc_CheckText2" />
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formAc_Text4"/>
+
+    <EditText
+        android:id="@+id/direccion_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/formAc_HintEdit"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+
+            android:id="@+id/btnSave"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom"
+            android:background="#01DFA5"
+            android:onClick="enviar"
+            android:shadowColor="@android:color/background_dark"
+            android:text="@string/formAc_ButtonText"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

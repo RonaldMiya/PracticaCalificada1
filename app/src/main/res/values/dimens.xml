@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainAc_MarginVideo">25dp</dimen>
+    <dimen name="margin_image_card">20dp</dimen>
+    <dimen name="size_card">20sp</dimen>
+    <dimen name="text_dime">15sp</dimen>
+    <dimen name="margin_button">5dp</dimen>
+</resources>
