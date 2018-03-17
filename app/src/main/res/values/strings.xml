@@ -15,6 +15,7 @@
     <string name="formAc_Text4">Direccion a Enviar</string>
     <string name="formAc_ButtonText">Odenar!</string>
     <string name="formAc_HintEdit">Av. Cascanueces #222 - Santa Anita</string>
+    <string name="image_pizza">image_pizza</string>
 
     <string-array name="android_layout_arrays">
         <item>Americana</item>
